@@ -8,7 +8,7 @@ const MovieCard = ({ item }) => {
     <div className="movie-card flex flex-col rounded-lg p-3 bg-slate-800 text-white h-full select-none">
       <img
         src={`https://image.tmdb.org/t/p/w500/${poster_path}`}
-        alt=""
+        alt="ảnh phim"
         className="w-full h-[250px] object-cover rounded-lg mb-5"
       />
       <div className="flex flex-col flex-1">
