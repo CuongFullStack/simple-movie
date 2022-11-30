@@ -1,8 +1,8 @@
 import React from "react";
 import useSWR from "swr";
 import { SwiperSlide, Swiper } from "swiper/react";
-import { fetcher } from "../../../config";
-import Button from "../button/Button";
+import { fetcher } from "apiConfig/config";
+import Button from "components/button/Button";
 import { useNavigate } from "react-router-dom";
 
 const Banner = () => {

@@ -2,8 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { SwiperSlide, Swiper } from "swiper/react";
 import useSWR from "swr";
-import MovieCard from "../components/movie/movie/MovieCard";
-import { fetcher, tmdbAPI } from "../config";
+import MovieCard from "components/movie/MovieCard";
+import { fetcher, tmdbAPI } from "apiConfig/config";
 //https://api.themoviedb.org/3/movie/{movie_id}?api_key=<<api_key>>&language=en-US
 
 const MovieDetailsPage = () => {

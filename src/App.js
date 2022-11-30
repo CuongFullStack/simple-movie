@@ -1,8 +1,8 @@
 import { Fragment } from "react";
-import { NavLink, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "swiper/scss";
-import Banner from "./components/movie/banner/Banner";
-import Main from "./components/movie/layout/Main";
+import Banner from "components/banner/Banner";
+import Main from "components/layout/Main";
 import HomePage from "./pages/HomePage";
 import MovieDetailsPage from "./pages/MovieDetailsPage";
 import MoviePage from "./pages/MoviePage";
